@@ -1,0 +1,22 @@
+12202020 02:16:28 AM - ModelPortfolio - INFO- clicked by xpath locator: //*[contains(text(),'Explore Investment Ideas') and @href = 'weather_portfolio']
+12202020 02:16:39 AM - WeatherPortfolio - INFO- clicked by xpath locator: //*[contains(text(),'Customize Portfolio') and @href = 'explore_portfolio/1']
+12202020 02:16:40 AM - WeatherPortfolio - INFO- clicked by xpath locator: //*[contains(text(),'Customise')]
+12202020 02:16:42 AM - WeatherPortfolio - INFO- PASS::slider changed to %50
+12202020 02:16:43 AM - WeatherPortfolio - INFO- clicked by xpath locator: //*[contains(text(),'Rebalance')]
+12202020 02:16:46 AM - WeatherPortfolio - INFO- clicked by xpath locator: //*[contains(text(),'Invest Now')]
+12202020 02:16:46 AM - ExplorePortfolio - INFO- Get text in xpath locator: //ul[@class='list-group constituent-list clearfix']//li//following::span[2]
+12202020 02:16:46 AM - ExplorePortfolio - INFO- PASS::“'SPDR…' under 'What your portfolio contain ?' to be 13.79%
+12202020 02:16:46 AM - TestStatus - INFO- VERIFICATION SUCCESSFULtest Re-balance Validation FAILED
+12202020 02:16:46 AM - TestStatus - INFO- test_rebalanceValidation ##### TEST PASSED
+12202020 02:17:08 AM - ModelPortfolio - INFO- Get text in xpath locator: //*[@href='#selected-model-portfolios']
+12202020 02:17:08 AM - ModelPortfolio - INFO- PASS::tabs with text 'X Portfolio recommendations based on your preferences'
+12202020 02:17:08 AM - ModelPortfolio - INFO- Get text in xpath locator: //*[@href='#remaining-model-portfolios']
+12202020 02:17:08 AM - ModelPortfolio - INFO- PASS::tabs with text 'Y other portfolio choices available'
+12202020 02:17:08 AM - ModelPortfolio - INFO- resized to :375x667
+12202020 02:17:08 AM - ModelPortfolio - INFO- Get text in xpath locator: //*[contains(text(),'Recommended')]
+12202020 02:17:08 AM - ModelPortfolio - INFO- PASS::tabs with text 'Recommended (X)'
+12202020 02:17:08 AM - ModelPortfolio - INFO- Get text in xpath locator: //*[contains(text(),'Others')]
+12202020 02:17:08 AM - ModelPortfolio - INFO- PASS::tabs with text 'Others (Y)'
+12202020 02:17:08 AM - ModelPortfolio - INFO- PASS::x and y numbers are same
+12202020 02:17:08 AM - TestStatus - INFO- VERIFICATION SUCCESSFULtest Re-balance Validation FAILED
+12202020 02:17:08 AM - TestStatus - INFO- test_rebalanceValidation ##### TEST PASSED

@@ -10,9 +10,9 @@ class WebDriverFactory():
     def getDriverInstance(self):
         baseurl = "https://sfo-demo.herokuapp.com/model-portfolio"
         if self.browser == "chrome":
-            chrome_opt = webdriver.ChromeOptions(executable_path="./drivers/chromedriver.exe")
+            chrome_opt = webdriver.ChromeOptions()
             chrome_opt.add_argument("--disable-gpu")
-            driver = webdriver.Chrome(options= chrome_opt)
+            driver = webdriver.Chrome(options= chrome_opt,executable_path="./drivers/chromedriver.exe")
             # set maximum size based on system resolution usage
             driver.set_window_size(1366,768)
         elif self.browser == "firefox":
